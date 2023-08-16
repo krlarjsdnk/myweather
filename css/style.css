@@ -13,20 +13,27 @@ table{
     width: 1200px;
     height: 200px;
     border: 1px solid pink;
+    border-left: none;
 }
 thead{
     border-top: 2px solid #912b2b;
 }
+th{
+    border-bottom: 1px solid #ffeaea;
+    border-right: 1px solid #ffeaea;
+}
+td{
+    border-bottom: 1px solid #ffeaea;
+    border-right: 1px solid #ffeaea;
+}
 th:first-child{
     background-color: #ffeaea;
     color: #666;
+    border-bottom: #ff6363;
 }
-td:first-child{
+.bg-pink{
     background-color: #ffeaea;
     color: #666;
     font-weight: 600;
-}
-
-td{
-    border: 1px solid #333;
+    border-bottom: #ff6363;
 }
